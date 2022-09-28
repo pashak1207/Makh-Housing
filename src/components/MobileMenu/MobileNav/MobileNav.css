@@ -1,61 +1,87 @@
+.mobileNav{
+    margin-bottom: 172px;
+}
+.mobileNav ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.mobileNav li{
+    margin-bottom: 12px;
+}
+.mobileNav a{
+    font-family: "Inter";
+    text-transform: uppercase;
+    line-height: 12px;
+    font-size: 10px;
+    color: #A8A8A8;
+    position: relative;
+}
+.mobileNav a.active{
+    color: #393939;
+    margin-left: 7px;
+}
+.mobileNav a:hover{
+    color: #E34600;
+}
+.mobileNav a::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    top: 50%;
+    left: -8px;
+    transform: translate(0, -50%);
+    border-radius: 50%;
+    background: #C4C4C4;
+}
+.mobileNav a:hover:after{
+    background: #E34600;
+}
+.mobileNav a.active::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    bottom: 0;
+    left: -16px;
+    background: url(./../../../img/MobileMenu/icons/decor.svg) center/contain no-repeat;
+}
+.mobileNav a.active::before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    bottom: 50%;
+    left: -24px;
+    transform: translate(0, 50%);
+    border-radius: 50%;
+    border: 0.4px solid #E34600
+}
+
+@media (max-width: 992px) {
     .mobileNav{
         margin-bottom: 58px;
     }
     .mobileNav ul{
-        display: flex;
-        flex-direction: column;
         align-items: center;
     }
     .mobileNav li{
         margin-bottom: 14px;
     }
     .mobileNav a{
-        font-family: "Inter";
-        text-transform: uppercase;
         line-height: 17px;
         color: rgba(57, 57, 57, 0.67);
+        font-size: 14px;
         position: relative;
     }
     .mobileNav a.active{
         color: #E34600;
     }
-    .mobileNav a:hover{
-        color: #E34600;
-    }
     .mobileNav a::after{
-        content: "";
-        display: block;
-        position: absolute;
-        width: 2px;
-        height: 2px;
-        top: 50%;
-        left: -8px;
-        transform: translate(0, -50%);
-        border-radius: 50%;
         background: #868686;
     }
-    .mobileNav a:hover:after{
-        background: #E34600;
-    }
-    .mobileNav a.active::after{
-        content: "";
-        display: block;
-        position: absolute;
-        width: 4px;
-        height: 4px;
-        bottom: 0;
-        left: -16px;
-        background: url(./../../../img/MobileMenu/icons/decor.svg) center/contain no-repeat;
-    }
-    .mobileNav a.active::before{
-        content: "";
-        display: block;
-        position: absolute;
-        width: 20px;
-        height: 20px;
-        bottom: 50%;
-        left: -24px;
-        transform: translate(0, 50%);
-        border-radius: 50%;
-        border: 0.4px solid #E34600
-    }
+}

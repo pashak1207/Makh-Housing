@@ -5,7 +5,8 @@
     padding: 13px 20px;
     background: #fff;
     position: absolute;
-    top: -700px;
+    z-index: 12;
+    top: -800px;
     opacity: 0;
     left: 0;
     right: 0;

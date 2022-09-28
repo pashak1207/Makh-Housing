@@ -1,0 +1,76 @@
+.first-component{
+    position: relative;
+}
+
+.first-component .wrapper{
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 15px;
+}
+
+.first-component h1{
+    position: relative;
+    z-index: 2;
+    margin-top: 94px;
+    margin-bottom: 100px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 124%;
+    letter-spacing: 0.04em;
+    color: #393939;
+    max-width: 60%;
+}
+
+.first-component__gradient{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 81%;
+    height: 437px;
+    background: linear-gradient(180deg, rgba(144, 205, 236, 0.28) 5.72%, #98CDEC 132.95%);
+}
+
+.first-component__houseImage{
+    position: absolute;
+    width: 63%;
+    top: 158px;
+    right: 100px;
+}
+
+.first-component__houseImage img{
+    width: 100%;
+}
+
+@media (max-width: 1200px) {
+    .first-component h1{
+        font-size: 42px;
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 992px) {
+    .first-component{
+        padding-bottom: 81px;
+    }
+
+    .first-component h1{
+        font-size: 26px;
+        max-width: none;
+        margin-bottom: 41px;
+        margin-top: 140px;
+    }
+
+    .first-component__gradient{
+        width: 70%;
+        height: 342px;
+    }
+
+    .first-component__houseImage{
+        position: relative;
+        top: 0;
+        right: 0;
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+}
