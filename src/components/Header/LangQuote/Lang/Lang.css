@@ -1,0 +1,14 @@
+.lang{
+    display: flex;
+    align-items: center;
+    margin-right: 24px;
+}
+
+.lang p{
+    margin-right: 5px;
+    color: #000000;
+}
+
+.lang img:last-child{
+    margin-left: 24px;
+}
