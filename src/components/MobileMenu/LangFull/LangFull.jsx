@@ -4,7 +4,7 @@ import "./LangFull.css"
 export function LangFull({lang}) {
   return (
     <div className="langFull">
-      <p>{lang[0].name}</p>      
+      <p>Language: <span>{lang[0].name}</span></p>      
       <img src={ArrowDown} alt="" />
     </div>
   );

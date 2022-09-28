@@ -1,3 +1,5 @@
+import "./MenuSocmedia.css"
+
 export function MenuSocmedia({socMedia}){
     return (
         <div className="menu-socmedia">

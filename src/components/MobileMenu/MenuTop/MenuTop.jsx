@@ -1,5 +1,6 @@
 import CloseMenu from "./../../../img/MobileMenu/icons/close_menu.svg"
 import { Logo } from "./../../Header/Logo/Logo"
+import "./MenuTop.css"
 
 export function MenuTop({closeMobileMenu}) {
   return (

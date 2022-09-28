@@ -18,6 +18,32 @@ export const state = {
         href: "/contact",
       },
     ],
+    mobileNavItems : [
+      {
+        name: "About",
+        href: "/1",
+      },
+      {
+        name: "Specifications",
+        href: "/2",
+      },
+      {
+        name: "Previous Projects",
+        href: "/3",
+      },
+      {
+        name: "services",
+        href: "/4",
+      },
+      {
+        name: "ongoing projects",
+        href: "/5",
+      },
+      {
+        name: "contacts",
+        href: "/6",
+      }
+    ],
     socMedia: [
       {
         name: "/ Facebook",

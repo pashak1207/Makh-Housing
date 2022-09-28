@@ -1,7 +1,19 @@
 .mobile-menu{
-    display: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 13px 20px;
+    background: #fff;
+    position: absolute;
+    top: -700px;
+    opacity: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    transition: all 0.4s ease 0s ;
 }
 
 .mobile-menu.active{
-    display: block;
+    top: 0;
+    opacity: 1;
 }
