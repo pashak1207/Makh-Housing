@@ -1,0 +1,25 @@
+.second-component__right{
+    flex: 1 1 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 123px 0 0 0;
+    margin: 0 90px;
+}
+
+@media (max-width: 1200px) {
+    .second-component__right{
+        padding: 80px 0 0 0;
+        margin: 0 25px;
+    }
+}
+
+@media (max-width: 992px) {
+    .second-component__right{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0 0 0 20px;
+        margin: 0;
+    }
+}

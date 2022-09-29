@@ -1,0 +1,29 @@
+.second-component__top{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1136px;
+    margin: 0 15px 24px 15%;
+    padding: 0 0 23px;
+    align-items: flex-end;
+    border-bottom: 1px solid #C4C4C4;
+}
+
+.second-component__top h2{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    letter-spacing: 0.04em;
+    color: #393939;
+}
+
+@media (max-width: 992px) {
+    .second-component__top{
+        max-width: none;
+        width: auto;
+        margin: 0 15px 24px 15px;
+    }
+    .second-component__top h2{
+        font-size: 22px;
+        line-height: 26px;
+    }
+}

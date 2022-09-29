@@ -1,0 +1,51 @@
+.second-component__item{
+    margin-bottom: 50px;
+    margin-right: 15px;
+    padding-left: 26px;
+}
+
+.second-component__item h3{
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #393939;
+    margin-bottom: 10px;
+    position: relative;
+    max-width: 285px;
+}
+
+.second-component__item h3::before{
+    content: "";
+    position: absolute;
+    display: block;
+    left: -26px;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 12px;
+    height: 12px;
+    background: url(./../../../../img/SecondComponent/icons/star.svg) center/contain no-repeat;
+}
+
+.second-component__item p{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 148%;
+    color: #868686;
+    max-width: 285px;
+}
+
+@media (max-width: 992px) {
+    .second-component__item{
+        margin-bottom: 32px;
+        margin-right: 0;
+        padding-left: 26px;
+    }
+
+    .second-component__item:last-child{
+        margin-bottom: 0;
+    }
+}

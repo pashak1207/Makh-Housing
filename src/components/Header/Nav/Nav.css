@@ -6,6 +6,10 @@
     margin-right: 40px;
 }
 
+.nav li:last-child{
+    margin-right: 0;
+}
+
 .nav a{
     line-height: 17px;
     color: rgba(57, 57, 57, 0.67);

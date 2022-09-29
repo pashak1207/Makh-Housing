@@ -9,7 +9,7 @@ function App({state}) {
     <div className="App">
       <Header headerData={state.HeaderData}/>
       <FirstComponent mobileNav={state.HeaderData.mobileNavItems}/>
-      <SecondComponent/>
+      <SecondComponent componentData={state.SecondComponentData.itemsData}/>
     </div>
   )
 }

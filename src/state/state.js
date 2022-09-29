@@ -18,7 +18,7 @@ export const state = {
         href: "/contact",
       },
     ],
-    mobileNavItems : [
+    mobileNavItems: [
       {
         name: "About",
         href: "/1",
@@ -42,7 +42,7 @@ export const state = {
       {
         name: "contacts",
         href: "/6",
-      }
+      },
     ],
     socMedia: [
       {
@@ -71,6 +71,26 @@ export const state = {
         name: "Deutsch",
         smallName: "De",
       },
+    ],
+  },
+  SecondComponentData:{
+    itemsData:[
+      {
+        title: "Title will be here",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis."
+      },
+      {
+        title: "Title will be here",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis."
+      },
+      {
+        title: "Title will be here",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis."
+      },
+      {
+        title: "Title will be here",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis."
+      }
     ]
   }
 };
