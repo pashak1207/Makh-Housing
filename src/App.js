@@ -3,6 +3,7 @@ import { Header } from './components/Header/Header'
 import React from "react"
 import { FirstComponent } from './components/FirstComponent/FirstComponent'
 import { SecondComponent } from "./components/SecondComponent/SecondComponent"
+import { ThirdComponent } from './components/ThirdComponent/ThirdComponent'
 
 function App({state}) {
   return (
@@ -10,6 +11,7 @@ function App({state}) {
       <Header headerData={state.HeaderData}/>
       <FirstComponent mobileNav={state.HeaderData.mobileNavItems}/>
       <SecondComponent componentData={state.SecondComponentData.itemsData}/>
+      <ThirdComponent componentData={state.ThirdComponentData}/>
     </div>
   )
 }
