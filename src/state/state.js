@@ -160,6 +160,28 @@ export const state = {
             num: 3
           },
         ]
+      },
+      {
+        slideNum: 4,
+        header: "Numeric data (specification)",
+        image: "house.png",
+        textItems: [
+          {
+            title:"Title will be here",
+            text: "Hybrid balloon framing provides additional rigidity",
+            num: 1
+          },
+          {
+            title:"Title will be here",
+            text: "Hybrid balloon framing provides additional rigidity",
+            num: 2
+          },
+          {
+            title:"Title will be here",
+            text: "Hybrid balloon framing provides additional rigidity",
+            num: 3
+          },
+        ]
       }
     ],
     sliderSettings: {

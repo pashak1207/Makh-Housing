@@ -1,4 +1,5 @@
 import { SlideText } from "./SlideText/SlideText";
+import "./SlideItem.css"
 
 export function SlideItem({ sliderData }) {
   return (
