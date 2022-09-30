@@ -1,0 +1,166 @@
+.fourth-component{
+    background: hsl(240, 14%, 97%);
+    padding: 65px 0 90px;
+}
+
+.fourth-component__wrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.fourth-component h2{
+    text-align: center;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #393939;
+    margin-bottom: 73px;
+}
+
+
+.fourth-component .slick-prev{
+    position: absolute;
+    top: calc(100% - 28px);
+    left: calc(100% - 163px);
+    display: block;
+    width: auto;
+    height: 20px;
+    transform: translate(0, 0%);
+    cursor: pointer;
+    z-index: 1;
+    padding-left: 12px;
+}
+
+.fourth-component .slick-prev::before{
+    content: "prev";
+    position: absolute;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: #808080;
+    opacity: 1;
+    background: transparent;
+}
+
+.fourth-component .slick-prev:hover::before{
+    color: #393939;
+}
+
+.fourth-component .slick-prev::after{
+    content: "";
+    position: absolute;
+    display: block;
+    height: 16px;
+    width: 8px;
+    left: -8px;
+    top: 100%;
+    transform: translate(0, -50%);
+    background: url(./../../img/FourthComponent/icons/arrow_silver.svg) center/contain no-repeat;
+}
+
+.fourth-component .slick-prev:hover::after{
+    transform: translate(0, -50%) rotate(180deg);
+    background: url(./../../img/FourthComponent/icons/orange_arrow.svg) center/contain no-repeat;
+}
+
+
+.fourth-component .slick-next{
+    position: absolute;
+    top: calc(100% - 28px);
+    left: calc(100% - 123px);
+    display: block;
+    width: 80px;
+    height: 20px;
+    transform: translate(0, 0%);
+    cursor: pointer;
+    z-index: 1;
+    padding-right: 12px;
+}
+
+.fourth-component .slick-next::before{
+    content: "next";
+    position: absolute;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: #808080;
+    opacity: 1;
+    background: transparent;
+}
+
+.fourth-component .slick-next:hover::before{
+    color: #393939;
+}
+
+.fourth-component .slick-next::after{
+    content: "";
+    position: absolute;
+    display: block;
+    height: 16px;
+    width: 8px;
+    right: -16px;
+    top: 100%;
+    transform: translate(0, -50%) rotate(180deg);
+    background: url(./../../img/FourthComponent/icons/arrow_silver.svg) center/contain no-repeat;
+}
+
+.fourth-component .slick-next:hover::after{
+    transform: translate(0, -50%) rotate(0deg);
+    background: url(./../../img/FourthComponent/icons/orange_arrow.svg) center/contain no-repeat;
+}
+
+@media (max-width: 992px) {
+    .fourth-component{
+        padding: 45px 0 0px;
+        position: relative;
+    }    
+
+    .fourth-component::after{
+        content: "";
+        position: absolute;
+        width: 100vw;
+        height: 79px;
+        bottom: -31px;
+        left: 0;
+        z-index: -1;
+        background: #000;
+    }
+
+    .fourth-component h2{
+        font-size: 22px;
+        line-height: 26px;
+        margin-bottom: 32px;
+    }
+
+    .fourth-component .slick-prev{
+        left: calc(0% + 30px);
+    }
+
+    .fourth-component .slick-prev:hover::before{
+        color: #fff;
+    }
+
+    .fourth-component .slick-next{
+        left: calc(100% - 123px);
+    }
+
+    .fourth-component .slick-next:hover::before{
+        color: #fff;
+    }
+}

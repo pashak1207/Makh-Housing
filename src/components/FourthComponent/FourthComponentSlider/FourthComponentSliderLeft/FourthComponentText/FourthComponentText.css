@@ -1,0 +1,19 @@
+.fourth-component__text{
+    display: flex;
+    justify-content: space-between;
+    max-width: 253px;
+    margin-bottom: 42px;
+}
+
+.fourth-component__text p{
+    margin-bottom: 12px;
+}
+
+@media (max-width: 992px) {
+    .fourth-component__text{
+        margin-bottom: 49px;
+    }
+    .fourth-component__text p{
+        margin-bottom: 12px;
+    }
+}
