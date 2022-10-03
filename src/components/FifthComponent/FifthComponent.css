@@ -1,0 +1,18 @@
+.fifth-component{
+    background: hsl(240, 14%, 97%);
+}
+
+.fifth-component__wrapper{
+    margin: 0 auto;
+    position: relative;
+    max-width: 1440px;
+    height: 680px;
+}
+
+
+.fifth-component img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}

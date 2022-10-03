@@ -5,6 +5,7 @@ import { FirstComponent } from './components/FirstComponent/FirstComponent'
 import { SecondComponent } from "./components/SecondComponent/SecondComponent"
 import { ThirdComponent } from './components/ThirdComponent/ThirdComponent'
 import { FourthComponent } from "./components/FourthComponent/FourthComponent"
+import { FifthComponent } from './components/FifthComponent/FifthComponent'
 
 function App({state, slidersCount}) {
   return (
@@ -14,6 +15,7 @@ function App({state, slidersCount}) {
       <SecondComponent componentData={state.SecondComponentData.itemsData}/>
       <ThirdComponent componentData={state.ThirdComponentData}/>
       <FourthComponent slidersCount={slidersCount} componentData={state.FourthComponentData}/>
+      <FifthComponent/>
     </div>
   )
 }
