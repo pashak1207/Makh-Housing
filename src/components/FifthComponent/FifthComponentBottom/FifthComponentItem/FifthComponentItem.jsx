@@ -7,7 +7,12 @@ export function FifthComponentItem({onCompClick, itemData, length}) {
   return (
     <button onClick={onCompClick} className={itemClass}>
       <h3>{itemData.title}</h3>
-      <h4>{itemData.num}{(itemData.isActive ? ("/" + (length <10 ? ("0" + length) : length)) : "")}</h4>
+      {window.screen.width > 992 && 
+          <h4>{itemData.num}{(itemData.isActive ? ("/" + (length <10 ? ("0" + length) : length)) : "")}</h4>
+      }
+      {window.screen.width <= 992 && 
+          <h4>{itemData.num}</h4>
+      }
       <p>{itemData.text}</p>
     </button>
   );

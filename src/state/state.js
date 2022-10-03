@@ -266,6 +266,46 @@ export const state = {
       autoplaySpeed: 6000,
       arrows: true,
     }
+  },
+  FifthComponentData: {
+    itemData: [
+      {
+          title: "Name of the service",
+          num: "01",
+          text: "Lorem ipsum dolor sit amet, consectur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
+          isActive: true,
+          image: "house.png"
+      },
+      {
+          title: "Name of the service",
+          num: "02",
+          text: "Lorem ipsum dolor sit amet, consectur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
+          isActive: false,
+          image: "house2.png"
+      },
+      {
+          title: "Name of the service",
+          num: "03",
+          text: "Lorem ipsum dolor sit amet, consectur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
+          isActive: false,
+          image: "house2.png"
+      },
+      {
+          title: "Name of the service",
+          num: "04",
+          text: "Lorem ipsum dolor sit amet, consectur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
+          isActive: false,
+          image: "house.png"
+      },
+      {
+          title: "Name of the service",
+          num: "05",
+          text: "Lorem ipsum dolor sit amet, consectur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
+          isActive: false,
+          image: "house2.png"
+      }
+    ],
+    sliderSpeed: 3000 //Set on ms
   }
 };
 

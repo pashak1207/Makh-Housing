@@ -3,46 +3,8 @@ import { FifthComponentBottom } from "./FifthComponentBottom/FifthComponentBotto
 import { useState } from "react"
 
 
-export function FifthComponent(){
-    const itemData = [
-        {
-            title: "Name of the service",
-            num: "01",
-            text: "Lorem ipsum dolor sit amet, consectur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
-            isActive: true,
-            image: "house.png"
-        },
-        {
-            title: "Name of the service",
-            num: "02",
-            text: "Lorem ipsum dolor sit amet, consectur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
-            isActive: false,
-            image: "house2.png"
-        },
-        {
-            title: "Name of the service",
-            num: "03",
-            text: "Lorem ipsum dolor sit amet, consectur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
-            isActive: false,
-            image: "house2.png"
-        },
-        {
-            title: "Name of the service",
-            num: "04",
-            text: "Lorem ipsum dolor sit amet, consectur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
-            isActive: false,
-            image: "house.png"
-        },
-        {
-            title: "Name of the service",
-            num: "05",
-            text: "Lorem ipsum dolor sit amet, consectur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
-            isActive: false,
-            image: "house2.png"
-        }
-    ]
-    
-    const [active, setActive]  = useState(itemData);
+export function FifthComponent({componentData}){
+    const [active, setActive]  = useState(componentData.itemData);
 
     function isActiveNum(){
         for(let i = 0; i<active.length; i++){
@@ -54,17 +16,20 @@ export function FifthComponent(){
 
     setTimeout(() => {
         onCompClick("0" + ((isActiveNum()+1) < active.length ? isActiveNum()+2 : 1))
-    }, 3000);
+    }, componentData.sliderSpeed);
 
 
     function onCompClick(num){
-        const newArr = itemData.map(item => item.num === num ? { ...item, isActive: true } : { ...item, isActive: false })
+        const newArr = active.map(item => item.num === num ? { ...item, isActive: true } : { ...item, isActive: false })
         setActive(newArr)
     }
 
     return (
         <div className="fifth-component">
             <div className="fifth-component__wrapper">
+                {window.screen.width <= 992 && 
+                    <h2>Services</h2>
+                }
                 <img src={require( "./../../img/FifthComponent/" +  active[(isActiveNum())].image)}  alt="House" />
                 <FifthComponentBottom active={active} onCompClick={onCompClick}/>
             </div>

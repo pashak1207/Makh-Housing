@@ -15,7 +15,7 @@ function App({state, slidersCount}) {
       <SecondComponent componentData={state.SecondComponentData.itemsData}/>
       <ThirdComponent componentData={state.ThirdComponentData}/>
       <FourthComponent slidersCount={slidersCount} componentData={state.FourthComponentData}/>
-      <FifthComponent/>
+      <FifthComponent componentData={state.FifthComponentData}/>
     </div>
   )
 }
