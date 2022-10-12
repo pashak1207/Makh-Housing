@@ -1,0 +1,15 @@
+.sixth-component__item p {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 148%;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #fff;
+    position: absolute;
+    bottom: 40px;
+    left: 45px;
+}
+
+.sixth-component__item {
+    position: relative;
+}

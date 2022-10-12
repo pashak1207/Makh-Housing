@@ -1,6 +1,7 @@
 import Slider from "react-slick";
 import { SixthComponentItem } from "./SixthComponentItem/SixthComponentItem";
 import { SixthComponentProgress } from "./SixthComponentProgress/SixthComponentProgress";
+import "./SixthComponentSlider.css";
 
 export function SixthComponentSlider({
   sliderSettings,

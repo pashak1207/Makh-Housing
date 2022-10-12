@@ -1,4 +1,5 @@
 import Plus from "./../../../img/SixthComponent/icons/plus.svg";
+import "./SixthComponentAddSlide.css";
 
 export function SixthComponentAddSlide({ addNewSlide }) {
   return (

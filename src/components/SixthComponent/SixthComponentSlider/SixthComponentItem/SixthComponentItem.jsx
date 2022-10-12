@@ -1,3 +1,5 @@
+import "./SixthComponentItem.css";
+
 export function SixthComponentItem({ item }) {
   return (
     <div className="sixth-component__item">

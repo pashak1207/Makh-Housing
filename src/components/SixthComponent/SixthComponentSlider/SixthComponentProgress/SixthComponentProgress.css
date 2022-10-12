@@ -1,0 +1,12 @@
+.sixth-component__progress {
+    height: 1px;
+    width: 90%;
+    margin: 45px auto 0;
+    background: #CDCDCD;
+    position: relative;
+}
+
+.sixth-component__progressWidth {
+    background: #E34600;
+    height: 1px;
+}
