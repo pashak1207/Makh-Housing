@@ -73,49 +73,49 @@ export const state = {
       },
     ],
   },
-  SecondComponentData:{
-    itemsData:[
+  SecondComponentData: {
+    itemsData: [
       {
         title: "Title will be here",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis."
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis.",
       },
       {
         title: "Title will be here",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis."
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis.",
       },
       {
         title: "Title will be here",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis."
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis.",
       },
       {
         title: "Title will be here",
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis."
-      }
-    ]
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis.",
+      },
+    ],
   },
-  ThirdComponentData:{
-    sliderData:[
+  ThirdComponentData: {
+    sliderData: [
       {
         slideNum: 1,
         header: "Numeric data (specification)",
         image: "house.png",
         textItems: [
           {
-            title:"Title will be here",
+            title: "Title will be here",
             text: "Hybrid balloon framing provides additional rigidity",
-            num: 1
+            num: 1,
           },
           {
-            title:"Title will be here",
+            title: "Title will be here",
             text: "Hybrid balloon framing provides additional rigidity",
-            num: 2
+            num: 2,
           },
           {
-            title:"Title will be here",
+            title: "Title will be here",
             text: "Hybrid balloon framing provides additional rigidity",
-            num: 3
+            num: 3,
           },
-        ]
+        ],
       },
       {
         slideNum: 2,
@@ -123,21 +123,21 @@ export const state = {
         image: "house.png",
         textItems: [
           {
-            title:"Title will be here",
+            title: "Title will be here",
             text: "Hybrid balloon framing provides additional rigidity",
-            num: 1
+            num: 1,
           },
           {
-            title:"Title will be here",
+            title: "Title will be here",
             text: "Hybrid balloon framing provides additional rigidity",
-            num: 2
+            num: 2,
           },
           {
-            title:"Title will be here",
+            title: "Title will be here",
             text: "Hybrid balloon framing provides additional rigidity",
-            num: 3
+            num: 3,
           },
-        ]
+        ],
       },
       {
         slideNum: 3,
@@ -145,21 +145,21 @@ export const state = {
         image: "house.png",
         textItems: [
           {
-            title:"Title will be here",
+            title: "Title will be here",
             text: "Hybrid balloon framing provides additional rigidity",
-            num: 1
+            num: 1,
           },
           {
-            title:"Title will be here",
+            title: "Title will be here",
             text: "Hybrid balloon framing provides additional rigidity",
-            num: 2
+            num: 2,
           },
           {
-            title:"Title will be here",
+            title: "Title will be here",
             text: "Hybrid balloon framing provides additional rigidity",
-            num: 3
+            num: 3,
           },
-        ]
+        ],
       },
       {
         slideNum: 4,
@@ -167,22 +167,22 @@ export const state = {
         image: "house.png",
         textItems: [
           {
-            title:"Title will be here",
+            title: "Title will be here",
             text: "Hybrid balloon framing provides additional rigidity",
-            num: 1
+            num: 1,
           },
           {
-            title:"Title will be here",
+            title: "Title will be here",
             text: "Hybrid balloon framing provides additional rigidity",
-            num: 2
+            num: 2,
           },
           {
-            title:"Title will be here",
+            title: "Title will be here",
             text: "Hybrid balloon framing provides additional rigidity",
-            num: 3
+            num: 3,
           },
-        ]
-      }
+        ],
+      },
     ],
     sliderSettings: {
       dots: true,
@@ -193,8 +193,8 @@ export const state = {
       autoplaySpeed: 6000,
       arrows: false,
       centerMode: true,
-      centerPadding: "0px"
-    }
+      centerPadding: "0px",
+    },
   },
   FourthComponentData: {
     sliderData: [
@@ -205,57 +205,32 @@ export const state = {
         image: "house.png",
         btnText: "Enquire now",
         textItems: {
-          left: [
-              "€1920 / м²",
-              "€1920 / м²",
-              "€1920 / м²"
-          ],
-          right: [
-              "€1920 / м²",
-              "€1920 / м²",
-              "€1920 / м²"
-          ]
-        }
+          left: ["€1920 / м²", "€1920 / м²", "€1920 / м²"],
+          right: ["€1920 / м²", "€1920 / м²", "€1920 / м²"],
+        },
       },
       {
-          slideNum: "02",
-          header: "project name will be here",
-          text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquipea consequat. ",
-          image: "house.png",
-          btnText: "Enquire now",
-          textItems: {
-            left: [
-                "€1920 / м²",
-                "€1920 / м²",
-                "€1920 / м²"
-            ],
-            right: [
-                "€1920 / м²",
-                "€1920 / м²",
-                "€1920 / м²"
-            ]
-          }
+        slideNum: "02",
+        header: "project name will be here",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquipea consequat. ",
+        image: "house.png",
+        btnText: "Enquire now",
+        textItems: {
+          left: ["€1920 / м²", "€1920 / м²", "€1920 / м²"],
+          right: ["€1920 / м²", "€1920 / м²", "€1920 / м²"],
+        },
       },
       {
-      slideNum: "03",
-      header: "project name will be here",
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquipea consequat. ",
-      image: "house.png",
-      btnText: "Enquire now",
-      textItems: {
-          left: [
-              "€1920 / м²",
-              "€1920 / м²",
-              "€1920 / м²"
-          ],
-          right: [
-              "€1920 / м²",
-              "€1920 / м²",
-              "€1920 / м²"
-          ]
-      }
+        slideNum: "03",
+        header: "project name will be here",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquipea consequat. ",
+        image: "house.png",
+        btnText: "Enquire now",
+        textItems: {
+          left: ["€1920 / м²", "€1920 / м²", "€1920 / м²"],
+          right: ["€1920 / м²", "€1920 / м²", "€1920 / м²"],
+        },
       },
-          
     ],
     sliderSettings: {
       dots: false,
@@ -265,54 +240,86 @@ export const state = {
       autoplay: true,
       autoplaySpeed: 6000,
       arrows: true,
-    }
+    },
+    slidersCount: function () {
+      let a = state.FourthComponentData.sliderData.length;
+      if (a < 10) {
+        a = "0" + a;
+      }
+      return a;
+    },
   },
   FifthComponentData: {
     itemData: [
       {
-          title: "Name of the service",
-          num: "01",
-          text: "Lorem ipsum dolor sit amet, consectur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
-          isActive: true,
-          image: "house.png"
+        title: "Name of the service",
+        num: "01",
+        text: "Lorem ipsum dolor sit amet, consectur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
+        isActive: true,
+        image: "house.png",
       },
       {
-          title: "Name of the service",
-          num: "02",
-          text: "Lorem ipsum dolor sit amet, consectur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
-          isActive: false,
-          image: "house2.png"
+        title: "Name of the service",
+        num: "02",
+        text: "Lorem ipsum dolor sit amet, consectur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
+        isActive: false,
+        image: "house2.png",
       },
       {
-          title: "Name of the service",
-          num: "03",
-          text: "Lorem ipsum dolor sit amet, consectur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
-          isActive: false,
-          image: "house2.png"
+        title: "Name of the service",
+        num: "03",
+        text: "Lorem ipsum dolor sit amet, consectur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
+        isActive: false,
+        image: "house2.png",
       },
       {
-          title: "Name of the service",
-          num: "04",
-          text: "Lorem ipsum dolor sit amet, consectur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
-          isActive: false,
-          image: "house.png"
+        title: "Name of the service",
+        num: "04",
+        text: "Lorem ipsum dolor sit amet, consectur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
+        isActive: false,
+        image: "house.png",
       },
       {
-          title: "Name of the service",
-          num: "05",
-          text: "Lorem ipsum dolor sit amet, consectur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
-          isActive: false,
-          image: "house2.png"
-      }
+        title: "Name of the service",
+        num: "05",
+        text: "Lorem ipsum dolor sit amet, consectur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
+        isActive: false,
+        image: "house2.png",
+      },
     ],
-    sliderSpeed: 3000 //Set on ms
-  }
+    sliderSpeed: 3000, //Set on ms
+  },
+  SixthComponentData: {
+    itemsData: [
+      {
+        name: "project name",
+        image: "photo_1.png",
+        onStart: true,
+      },
+      {
+        name: "project name",
+        image: "photo_2.png",
+        onStart: false,
+      },
+      {
+        name: "project name",
+        image: "photo_3.png",
+        onStart: false,
+      },
+      {
+        name: "project name",
+        image: "photo_1.png",
+        onStart: false,
+      },
+    ],
+    sliderSettings: {
+      dots: false,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      adaptiveHeight: true,
+      arrows: false,
+    },
+  },
 };
-
-export function slidersCount(){
-  let a = state.FourthComponentData.sliderData.length
-  if(a<10){
-    a = "0" + a
-  }
-  return a
-}

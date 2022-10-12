@@ -1,0 +1,76 @@
+.sixth-component {
+    padding: 122px 0;
+    background: #F7F7F9;
+}
+
+.sixth-component__wrapper {
+    max-width: 1220px;
+    margin-left: auto;
+    position: relative;
+}
+
+.sixth-component__wrapper h2 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    letter-spacing: 0.04em;
+    color: #393939;
+    padding-left: 24px;
+    position: relative;
+    margin-bottom: 62px;
+}
+
+.sixth-component__wrapper h2::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 12px;
+    height: 12px;
+    background: url(./../../img/SixthComponent/icons/star.svg) center/contain no-repeat;
+}
+
+.sixth-component__wrapper>button {
+    background: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 77px;
+    right: 38%;
+}
+
+.sixth-component__item p {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 148%;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #fff;
+    position: absolute;
+    bottom: 40px;
+    left: 45px;
+}
+
+.sixth-component__item {
+    position: relative;
+}
+
+.sixth-component__progress {
+    height: 1px;
+    width: 90%;
+    margin: 45px auto 0;
+    background: #CDCDCD;
+    position: relative;
+}
+
+.sixth-component__progressWidth {
+    background: #E34600;
+    height: 1px;
+}
