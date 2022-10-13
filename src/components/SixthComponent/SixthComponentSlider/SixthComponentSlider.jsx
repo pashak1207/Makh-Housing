@@ -2,6 +2,8 @@ import Slider from "react-slick";
 import { SixthComponentItem } from "./SixthComponentItem/SixthComponentItem";
 import { SixthComponentProgress } from "./SixthComponentProgress/SixthComponentProgress";
 import "./SixthComponentSlider.css";
+import React, { useRef, useState } from "react";
+import { SixthComponentDraggable } from "./SixthComponentDraggable/SixthComponentDraggable";
 
 export function SixthComponentSlider({
   sliderSettings,
@@ -10,11 +12,19 @@ export function SixthComponentSlider({
   itemData,
   num,
 }) {
+  const slickk = useRef();
+  let slick = slickk.current;
+  let slidesShow =
+    window.screen.width <= 992 ? 1 : window.screen.width <= 1200 ? 2 : 3;
+
+  const [sl, setSl] = useState(0);
+
   const sliderSettingsThis = {
     ...sliderSettings,
     afterChange: function (index) {
       setItemData(newDataSet(index));
     },
+    slidesToShow: slidesShow,
   };
 
   function newDataSet(index) {
@@ -40,7 +50,13 @@ export function SixthComponentSlider({
 
   return (
     <div className="sixth-component__slider">
-      <Slider {...sliderSettingsThis}>
+      <SixthComponentDraggable
+        setSl={setSl}
+        slick={slick}
+        sl={sl}
+        itemData={itemData}
+      />
+      <Slider ref={slickk} {...sliderSettingsThis}>
         {itemData.map((item, index) => (
           <SixthComponentItem key={index} item={item} />
         ))}

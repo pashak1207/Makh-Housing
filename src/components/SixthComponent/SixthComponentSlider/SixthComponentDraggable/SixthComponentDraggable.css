@@ -1,0 +1,51 @@
+.handleDrag {
+    width: 76px;
+    height: 76px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 12px;
+    color: #393939;
+    position: absolute;
+    left: 20px;
+    bottom: 70px;
+    transition: all 0.5s ease 0s;
+    z-index: 99999;
+}
+
+.handleDrag::before {
+    content: "";
+    position: absolute;
+    left: 7px;
+    top: 50%;
+    transform: translate(0, -30%);
+    width: 4px;
+    height: 8px;
+    background: url(./../../../../img/SixthComponent/icons/arrow_left.svg) center/contain no-repeat;
+}
+
+.handleDrag::after {
+    content: "";
+    position: absolute;
+    right: 7px;
+    top: 50%;
+    transform: translate(0, -30%) rotate(180deg);
+    width: 4px;
+    height: 8px;
+    background: url(./../../../../img/SixthComponent/icons/arrow_left.svg) center/contain no-repeat;
+}
+
+.handleDraggged {
+    width: 90px;
+    height: 90px;
+}
+
+@media (max-width: 992px) {
+    .handleDrag {
+        display: none;
+    }
+}

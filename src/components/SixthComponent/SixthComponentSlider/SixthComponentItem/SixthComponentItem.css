@@ -13,3 +13,17 @@
 .sixth-component__item {
     position: relative;
 }
+
+@media (max-width: 1200px) {
+    .sixth-component__item {
+        display: flex;
+        justify-content: center;
+    }
+
+    .sixth-component__item p {
+        left: 0;
+        width: 100%;
+        text-align: center;
+        bottom: 29px;
+    }
+}

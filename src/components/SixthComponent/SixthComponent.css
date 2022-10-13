@@ -32,3 +32,28 @@
     height: 12px;
     background: url(./../../img/SixthComponent/icons/star.svg) center/contain no-repeat;
 }
+
+@media (min-width: 1441px) {
+    .sixth-component__wrapper {
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 1200px) {
+    .sixth-component {
+        padding: 122px 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    .sixth-component {
+        padding: 43px 20px 71px;
+        margin-top: 173px;
+    }
+
+    .sixth-component__wrapper h2 {
+        font-size: 22px;
+        line-height: 26px;
+        margin-bottom: 37px;
+    }
+}
