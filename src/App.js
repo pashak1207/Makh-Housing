@@ -1,6 +1,6 @@
 import "./App.css";
-import { Header } from "./components/Header/Header";
 import React from "react";
+import { Header } from "./components/Header/Header";
 import { FirstComponent } from "./components/FirstComponent/FirstComponent";
 import { SecondComponent } from "./components/SecondComponent/SecondComponent";
 import { ThirdComponent } from "./components/ThirdComponent/ThirdComponent";
@@ -8,6 +8,7 @@ import { FourthComponent } from "./components/FourthComponent/FourthComponent";
 import { FifthComponent } from "./components/FifthComponent/FifthComponent";
 import { SixthComponent } from "./components/SixthComponent/SixthComponent";
 import { SeventhComponent } from "./components/SeventhComponent/SeventhComponent";
+import { Footer } from "./components/Footer/Footer";
 
 function App({ state }) {
   return (
@@ -20,6 +21,7 @@ function App({ state }) {
       <FifthComponent componentData={state.FifthComponentData} />
       <SixthComponent componentData={state.SixthComponentData} />
       <SeventhComponent componentData={state.SeventhComponentData} />
+      <Footer />
     </div>
   );
 }
