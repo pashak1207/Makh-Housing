@@ -1,0 +1,15 @@
+.seventh-component {
+    background: #F7F7F9;
+}
+
+.seventh-component__wrapper {
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+@media (max-width: 992px) {
+    .seventh-component__wrapper {
+        flex-direction: column;
+    }
+}

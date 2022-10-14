@@ -7,8 +7,9 @@ import { ThirdComponent } from "./components/ThirdComponent/ThirdComponent";
 import { FourthComponent } from "./components/FourthComponent/FourthComponent";
 import { FifthComponent } from "./components/FifthComponent/FifthComponent";
 import { SixthComponent } from "./components/SixthComponent/SixthComponent";
+import { SeventhComponent } from "./components/SeventhComponent/SeventhComponent";
 
-function App({ state, slidersCount }) {
+function App({ state }) {
   return (
     <div className="App">
       <Header headerData={state.HeaderData} />
@@ -18,6 +19,7 @@ function App({ state, slidersCount }) {
       <FourthComponent componentData={state.FourthComponentData} />
       <FifthComponent componentData={state.FifthComponentData} />
       <SixthComponent componentData={state.SixthComponentData} />
+      <SeventhComponent componentData={state.SeventhComponentData} />
     </div>
   );
 }

@@ -1,0 +1,28 @@
+.seventh-component__form p {
+    margin-bottom: 4px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 162%;
+    text-transform: uppercase;
+    color: #E34600;
+    transition: all 0.4s ease 0s;
+}
+
+.seventh-component__form input {
+    background: transparent;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    text-transform: capitalize;
+    color: #393939;
+    padding: 3px;
+    border-bottom: 1px solid #3939396c;
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.seventh-component__form input:focus {
+    border-bottom: 1px solid #E34600;
+}

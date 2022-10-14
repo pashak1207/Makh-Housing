@@ -1,0 +1,14 @@
+.seventh-component__right h3 {
+    margin-bottom: 30px;
+    margin-left: 50px;
+}
+
+.seventh-component__right h3>img {
+    margin-right: 12px;
+}
+
+@media (max-width: 992px) {
+    .seventh-component__right h3 {
+        margin-left: 23px;
+    }
+}

@@ -1,0 +1,39 @@
+.seventh-component__right {
+    background: #F7F7F9;
+    padding: 43px 0 0 0;
+    flex: 0 0 46%;
+}
+
+.seventh-component__rightImg {
+    margin-top: 60px;
+    position: relative;
+    right: 54px;
+}
+
+.seventh-component__rightImg::after {
+    content: "";
+    position: absolute;
+    display: block;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 47px;
+    height: 64px;
+    background: url(./../../../img/SeventhComponent/icons/location.svg) center/contain no-repeat;
+}
+
+.seventh-component__rightImg img {
+    width: 100%;
+}
+
+@media (max-width: 992px) {
+    .seventh-component__right {
+        padding: 57px 0 0 0;
+        flex: 0 0 100%;
+    }
+
+    .seventh-component__rightImg {
+        margin-top: 50px;
+        right: 0px;
+    }
+}

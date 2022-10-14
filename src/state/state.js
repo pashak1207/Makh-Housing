@@ -322,4 +322,52 @@ export const state = {
       arrows: false,
     },
   },
+  SeventhComponentData: {
+    right: {
+      map: "map.png",
+      items: [
+        {
+          image: "pointer.svg",
+          text: "Adress will be here",
+        },
+        {
+          image: "tel.svg",
+          text: "+1 344 3453 554",
+        },
+        {
+          image: "mail.svg",
+          text: "makh@email.com",
+        },
+      ],
+    },
+    left: {
+      header: "Get in Touch",
+      send: {
+        service: "service_9b1ee76",
+        template: "template_vwp3ebc",
+        apiKey: "x83h9vQo2Y8LkIeVk",
+      },
+      inputs: [
+        {
+          text: "First Name",
+          typeIs: "text",
+          name: "firstname",
+        },
+        {
+          text: "Email",
+          typeIs: "email",
+          name: "email",
+        },
+        {
+          text: "Phone number",
+          typeIs: "tel",
+          name: "phone",
+        },
+      ],
+      taxtarea: {
+        text: "Your Message",
+        name: "message",
+      },
+    },
+  },
 };

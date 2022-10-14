@@ -1,0 +1,46 @@
+.seventh-component__left {
+    padding: 82px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0 0 54%;
+    background: #F0F1F4;
+}
+
+.seventh-component__left>h2 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #393939;
+    position: relative;
+    padding-left: 28px;
+    margin-bottom: 122px;
+}
+
+.seventh-component__left>h2::before {
+    content: "";
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 12px;
+    height: 12px;
+    background: url(./../../../img/SeventhComponent/icons/star.svg) center/contain no-repeat;
+}
+
+@media (max-width: 992px) {
+    .seventh-component__left {
+        padding: 48px 20px;
+        flex: 0 0 100%;
+        align-items: flex-start;
+    }
+
+    .seventh-component__left>h2 {
+        margin-bottom: 57px;
+        font-size: 22px;
+        line-height: 26px;
+    }
+}

@@ -1,0 +1,61 @@
+.seventh-component__form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.seventh-component__form textarea {
+    resize: none;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+    text-transform: capitalize;
+    color: #393939;
+    background: transparent;
+    padding: 3px;
+    height: 114px;
+    width: 100%;
+    border-bottom: 1px solid #3939396c;
+}
+
+.seventh-component__form button {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: #393939;
+    position: relative;
+    display: flex;
+    padding-right: 17px;
+    background: transparent;
+    margin: 27px 17px 20px auto;
+}
+
+.seventh-component__form button:hover {
+    color: #E34600;
+}
+
+.seventh-component__form button::after {
+    content: "";
+    position: absolute;
+    display: block;
+    right: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 7px;
+    height: 12px;
+    background: url(./../../../../img/SeventhComponent/icons/arrow.svg) center/contain no-repeat;
+}
+
+@media (max-width: 992px) {
+    .seventh-component__form {
+        width: 100%;
+    }
+
+    .seventh-component__form button {
+        margin-bottom: 0;
+    }
+}
