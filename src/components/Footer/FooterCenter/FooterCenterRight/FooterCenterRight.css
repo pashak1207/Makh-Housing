@@ -1,0 +1,22 @@
+.footer__center-right {
+    display: flex;
+    align-items: center;
+}
+
+.footer__center-right a {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    color: rgba(255, 255, 255, 0.18);
+    margin-left: 26px;
+}
+
+.footer__center-right a:hover {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.footer__center-right a.active {
+    color: #fff;
+}

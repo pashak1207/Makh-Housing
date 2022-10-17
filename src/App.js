@@ -21,7 +21,7 @@ function App({ state }) {
       <FifthComponent componentData={state.FifthComponentData} />
       <SixthComponent componentData={state.SixthComponentData} />
       <SeventhComponent componentData={state.SeventhComponentData} />
-      <Footer />
+      <Footer componentData={state.FooterData} />
     </div>
   );
 }

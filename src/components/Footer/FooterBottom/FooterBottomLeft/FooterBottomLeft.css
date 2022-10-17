@@ -1,0 +1,14 @@
+.footer__bottom-left {
+    display: flex;
+    align-items: center;
+}
+
+.footer__bottom-left p {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 162%;
+    text-transform: capitalize;
+    color: #555555;
+    margin-right: 24px;
+}

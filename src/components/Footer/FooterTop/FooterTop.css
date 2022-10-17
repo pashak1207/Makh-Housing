@@ -1,0 +1,16 @@
+.footer__top {
+    max-width: 275px;
+    margin-bottom: 85px;
+}
+
+.footer__top img {
+    margin-bottom: 24px;
+}
+
+.footer__top p {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 158%;
+    color: #404040;
+}

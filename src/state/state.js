@@ -370,4 +370,49 @@ export const state = {
       },
     },
   },
+  FooterData: {
+    state: {
+      stateTop: {
+        text: "Lorem ipsum dolor sit amet, consectur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
+      },
+      stateCenter: {
+        leftState: [
+          {
+            to: "11",
+            text: "About us",
+          },
+          {
+            to: "22",
+            text: "Services",
+          },
+          {
+            to: "33",
+            text: "Projects",
+          },
+          {
+            to: "44",
+            text: "Contact us",
+          },
+        ],
+        rightState: [
+          {
+            to: "55",
+            text: "/ Facebook",
+          },
+          {
+            to: "66",
+            text: "/ Twitter",
+          },
+          {
+            to: "77",
+            text: "/ LinkedIn",
+          },
+        ],
+      },
+      stateBottom: {
+        alRight: "© 2021 All Rights Reserved",
+        ppolicy: "Privacy Policy",
+      },
+    },
+  },
 };
