@@ -6,3 +6,12 @@
     border-bottom: 1px solid rgba(57, 57, 57, 0.42);
     margin-bottom: 37px;
 }
+
+
+@media (max-width: 992px) {
+    .footer__center {
+        flex-direction: column;
+        padding-bottom: 52px;
+        margin-bottom: 46px;
+    }
+}

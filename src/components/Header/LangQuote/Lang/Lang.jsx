@@ -1,26 +1,20 @@
-import ArrowDown from "./../../../../img/header/icons/arrow_down_orange.svg";
-import SilverStick from "./../../../../img/header/icons/silver_stick.svg";
 import "./Lang.css";
+import Select from "react-select";
 
-export function Lang({ lang, left }) {
+export function Lang({ lang, setLang, left, options }) {
+  const classIs = left ? "langSelect__left langSelect" : "langSelect";
+
+  function onChange(e) {
+    setLang(e);
+  }
+
   return (
     <div className="lang">
-      <p
-        style={{
-          color: left ? "#fff" : "",
-          order: left ? "2" : "1",
-        }}
-      >
-        {lang[0].smallName}
-      </p>
-      <img style={{ order: left ? "3" : "2" }} src={ArrowDown} alt="" />
-      <img
-        style={{
-          marginRight: left ? "24px" : "",
-          order: left ? "1" : "3",
-        }}
-        src={SilverStick}
-        alt=""
+      <Select
+        classNamePrefix={classIs}
+        onChange={onChange}
+        value={lang}
+        options={options}
       />
     </div>
   );

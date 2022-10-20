@@ -1,6 +1,7 @@
 .footer {
     padding: 59px 0 47px;
     background: #202020;
+    position: relative;
 }
 
 .footer__wrapper {
@@ -9,4 +10,14 @@
     max-width: 1440px;
     margin: 0 auto;
     padding: 0 65px 0 40px;
+}
+
+@media (max-width: 992px) {
+    .footer {
+        padding: 37px 20px 71px;
+    }
+
+    .footer__wrapper {
+        padding: 0;
+    }
 }

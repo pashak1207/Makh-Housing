@@ -20,3 +20,9 @@
 .footer__center-right a.active {
     color: #fff;
 }
+
+@media (max-width: 992px) {
+    .footer__center-right {
+        margin-top: 62px;
+    }
+}

@@ -14,3 +14,24 @@
     line-height: 158%;
     color: #404040;
 }
+
+.footer__top .lang {
+    position: absolute;
+    right: 20px;
+    top: 65px;
+}
+
+.footer__top .lang img:nth-child(3) {
+    display: none;
+}
+
+.footer__top .lang img:nth-child(2) {
+    position: relative;
+    top: 10px;
+}
+
+@media (max-width: 992px) {
+    .footer__top {
+        margin-bottom: 70px;
+    }
+}

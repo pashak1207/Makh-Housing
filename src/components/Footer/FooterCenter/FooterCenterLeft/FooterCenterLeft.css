@@ -21,3 +21,14 @@
 .footer__center-left a.active {
     color: #E34600;
 }
+
+@media (max-width: 992px) {
+    .footer__center-left {
+        flex-direction: column;
+    }
+
+    .footer__center-left a {
+        margin-right: 0px;
+        margin-bottom: 32px;
+    }
+}

@@ -12,3 +12,14 @@
     color: #555555;
     margin-right: 24px;
 }
+
+@media (max-width: 992px) {
+    .footer__bottom-left {
+        flex-direction: column;
+    }
+
+    .footer__bottom-left p {
+        margin-right: 0;
+        margin-bottom: 19px;
+    }
+}

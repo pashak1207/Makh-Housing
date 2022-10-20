@@ -1,14 +1,32 @@
-.lang{
+.lang {
     display: flex;
     align-items: center;
     margin-right: 24px;
 }
 
-.lang p{
+.lang p {
     margin-right: 5px;
     color: #000000;
 }
 
-.lang img:last-child{
+.lang img:last-child {
     margin-left: 24px;
+}
+
+.langSelect__control {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.langSelect__control--is-focused {
+    box-shadow: 0 0 0 1px #eee !important;
+}
+
+.langSelect__indicator {
+    color: #E34600 !important;
+    transform: scale(0.7);
+}
+
+.langSelect__left .langSelect__single-value {
+    color: #fff;
 }
