@@ -1,4 +1,4 @@
-.fourth-component__slider-left h3{
+.fourth-component__slider-left h3 {
     position: relative;
     font-weight: 700;
     font-size: 18px;
@@ -11,7 +11,7 @@
     padding-left: 22px;
 }
 
-.fourth-component__slider-left h3:before{
+.fourth-component__slider-left h3:before {
     content: "";
     position: absolute;
     display: block;
@@ -22,7 +22,7 @@
     background: url(./../../../../img/FourthComponent/icons/star.svg) center/contain no-repeat;
 }
 
-.fourth-component__slider-left p{
+.fourth-component__slider-left p {
     max-width: 403px;
     font-family: 'Inter';
     font-weight: 400;
@@ -32,21 +32,24 @@
     margin-bottom: 28px;
 }
 
-.fourth-component__slider-left button{
+.fourth-component__slider-left button {
+    position: relative;
     background: transparent;
+}
+
+.fourth-component__slider-left button a {
     font-family: 'Pier';
     font-weight: 400;
     font-size: 14px;
-    line-height: 17px;    
+    line-height: 17px;
     letter-spacing: 0.09em;
     text-transform: uppercase;
     color: #393939;
     padding: 0 0 8px 21px;
-    position: relative;
     border-bottom: 1px solid #E34600;
 }
 
-.fourth-component__slider-left button::before{
+.fourth-component__slider-left button::before {
     content: "";
     position: absolute;
     display: block;
@@ -59,32 +62,32 @@
 }
 
 @media (max-width: 992px) {
-    .fourth-component__slider-left{
+    .fourth-component__slider-left {
         order: 2;
         padding: 0 42px;
     }
 
-    .fourth-component__slider-left h3{
+    .fourth-component__slider-left h3 {
         font-size: 16px;
         padding-left: 0;
         margin-bottom: 16px;
     }
 
-    .fourth-component__slider-left h3:before{
+    .fourth-component__slider-left h3:before {
         left: -22px;
     }
 
-    .fourth-component__slider-left p{
+    .fourth-component__slider-left p {
         margin-bottom: 24px;
     }
 
-    .fourth-component__slider-left button{
+    .fourth-component__slider-left button {
         display: block;
         width: 100%;
         margin: 0 auto 57px;
     }
 
-    .fourth-component__slider-left button::before{
+    .fourth-component__slider-left button::before {
         top: 35%;
         left: calc(50% - 72px);
         transform: translate(0, -50%);

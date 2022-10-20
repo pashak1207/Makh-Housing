@@ -1,0 +1,43 @@
+.newPage {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    height: 100vh;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 99999;
+}
+
+.newPage h1 {
+    text-transform: uppercase;
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 24px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 55px;
+}
+
+.newPage span {
+    text-transform: uppercase;
+    font-size: 48px;
+    margin-bottom: 24px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 55px;
+    color: red;
+}
+
+.newPage a {
+    padding: 15px 25px;
+    background: red;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 18px;
+}

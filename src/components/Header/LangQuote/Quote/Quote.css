@@ -1,13 +1,18 @@
-.quote{
+.quote {
     display: flex;
     align-items: center;
 }
 
-.quote img{
+.quote a {
+    display: flex;
+    align-items: center;
+}
+
+.quote img {
     margin-right: 8px;
 }
 
-.quote p{
+.quote p {
     font-family: 'Pier';
     text-transform: uppercase;
     color: #000000;
@@ -15,7 +20,7 @@
 }
 
 @media (max-width: 992px) {
-    .quote p{
+    .quote p {
         font-size: 12px;
         line-height: 14px;
     }

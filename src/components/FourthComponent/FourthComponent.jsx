@@ -6,7 +6,7 @@ import { FourthComponentSlider } from "./FourthComponentSlider/FourthComponentSl
 
 export function FourthComponent({ componentData }) {
   return (
-    <div className="fourth-component">
+    <div id="3" className="fourth-component">
       <h2>Previous Projects</h2>
       <div className="fourth-component__wrapper">
         <Slider {...componentData.sliderSettings}>

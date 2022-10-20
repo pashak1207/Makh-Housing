@@ -1,11 +1,17 @@
-import { NavLink } from 'react-router-dom'
-import "./MobileNav.css"
+import { HashLink as Link } from "react-router-hash-link";
+import "./MobileNav.css";
 
-export function MobileNav({navItems}) {
+export function MobileNav({ navItems }) {
   return (
-    <nav className='mobileNav'>
+    <nav className="mobileNav">
       <ul>
-        {navItems.map((item, index) => <li key={index}><NavLink activeclassname="active" to={item.href}>{item.name}</NavLink></li>)}
+        {navItems.map((item, index) => (
+          <li key={index}>
+            <Link activeclassname="active" to={"/pathLink#" + item.href}>
+              {item.name}
+            </Link>
+          </li>
+        ))}
       </ul>
     </nav>
   );

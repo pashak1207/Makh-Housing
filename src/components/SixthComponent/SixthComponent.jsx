@@ -13,7 +13,7 @@ export function SixthComponent({ componentData }) {
   }
 
   return (
-    <div className="sixth-component">
+    <div id="5" className="sixth-component">
       <div className="sixth-component__wrapper">
         <h2>Ongoing projects</h2>
         <SixthComponentSlider

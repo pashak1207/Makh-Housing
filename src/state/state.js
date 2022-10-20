@@ -21,27 +21,27 @@ export const stateEn = {
     mobileNavItems: [
       {
         name: "About",
-        href: "/1",
+        href: "1",
       },
       {
         name: "Specifications",
-        href: "/2",
+        href: "2",
       },
       {
         name: "Previous Projects",
-        href: "/3",
+        href: "3",
       },
       {
         name: "services",
-        href: "/4",
+        href: "4",
       },
       {
         name: "ongoing projects",
-        href: "/5",
+        href: "5",
       },
       {
         name: "contacts",
-        href: "/6",
+        href: "6",
       },
     ],
     socMedia: [
@@ -407,46 +407,46 @@ export const stateUa = {
   HeaderData: {
     navItems: [
       {
-        name: "About us UKRAINE",
+        name: "Про нас",
         href: "/about",
       },
       {
-        name: "Services",
+        name: "Сервіси",
         href: "/services",
       },
       {
-        name: "Projects",
+        name: "Проєкти",
         href: "/projects",
       },
       {
-        name: "Contact us",
+        name: "Контакти",
         href: "/contact",
       },
     ],
     mobileNavItems: [
       {
-        name: "About",
-        href: "/1",
+        name: "Про нас",
+        href: "1",
       },
       {
-        name: "Specifications",
-        href: "/2",
+        name: "Специфікації",
+        href: "2",
       },
       {
-        name: "Previous Projects",
-        href: "/3",
+        name: "Попередні проєкти",
+        href: "3",
       },
       {
-        name: "services",
-        href: "/4",
+        name: "Сервіси",
+        href: "4",
       },
       {
-        name: "ongoing projects",
-        href: "/5",
+        name: "Проєкти в процесі",
+        href: "5",
       },
       {
-        name: "contacts",
-        href: "/6",
+        name: "Контакти",
+        href: "6",
       },
     ],
     socMedia: [
@@ -467,19 +467,19 @@ export const stateUa = {
   SecondComponentData: {
     itemsData: [
       {
-        title: "Title will be here",
+        title: "Заголовок буде тут",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis.",
       },
       {
-        title: "Title will be here",
+        title: "Заголовок буде тут",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis.",
       },
       {
-        title: "Title will be here",
+        title: "Заголовок буде тут",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis.",
       },
       {
-        title: "Title will be here",
+        title: "Заголовок буде тут",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis.",
       },
     ],
@@ -488,88 +488,88 @@ export const stateUa = {
     sliderData: [
       {
         slideNum: 1,
-        header: "Numeric data (specification)",
+        header: "Числові дані (специфікація)",
         image: "house.png",
         textItems: [
           {
-            title: "Title will be here",
-            text: "Hybrid balloon framing provides additional rigidity",
+            title: "Заголовок буде тут",
+            text: "Гібридний балонний каркас забезпечує додаткову жорсткість",
             num: 1,
           },
           {
-            title: "Title will be here",
-            text: "Hybrid balloon framing provides additional rigidity",
+            title: "Заголовок буде тут",
+            text: "Гібридний балонний каркас забезпечує додаткову жорсткість",
             num: 2,
           },
           {
-            title: "Title will be here",
-            text: "Hybrid balloon framing provides additional rigidity",
+            title: "Заголовок буде тут",
+            text: "Гібридний балонний каркас забезпечує додаткову жорсткість",
             num: 3,
           },
         ],
       },
       {
         slideNum: 2,
-        header: "Numeric data (specification)",
+        header: "Числові дані (специфікація)",
         image: "house.png",
         textItems: [
           {
-            title: "Title will be here",
-            text: "Hybrid balloon framing provides additional rigidity",
+            title: "Заголовок буде тут",
+            text: "Гібридний балонний каркас забезпечує додаткову жорсткість",
             num: 1,
           },
           {
-            title: "Title will be here",
-            text: "Hybrid balloon framing provides additional rigidity",
+            title: "Заголовок буде тут",
+            text: "Гібридний балонний каркас забезпечує додаткову жорсткість",
             num: 2,
           },
           {
-            title: "Title will be here",
-            text: "Hybrid balloon framing provides additional rigidity",
+            title: "Заголовок буде тут",
+            text: "Гібридний балонний каркас забезпечує додаткову жорсткість",
             num: 3,
           },
         ],
       },
       {
         slideNum: 3,
-        header: "Numeric data (specification)",
+        header: "Числові дані (специфікація)",
         image: "house.png",
         textItems: [
           {
-            title: "Title will be here",
-            text: "Hybrid balloon framing provides additional rigidity",
+            title: "Заголовок буде тут",
+            text: "Гібридний балонний каркас забезпечує додаткову жорсткість",
             num: 1,
           },
           {
-            title: "Title will be here",
-            text: "Hybrid balloon framing provides additional rigidity",
+            title: "Заголовок буде тут",
+            text: "Гібридний балонний каркас забезпечує додаткову жорсткість",
             num: 2,
           },
           {
-            title: "Title will be here",
-            text: "Hybrid balloon framing provides additional rigidity",
+            title: "Заголовок буде тут",
+            text: "Гібридний балонний каркас забезпечує додаткову жорсткість",
             num: 3,
           },
         ],
       },
       {
         slideNum: 4,
-        header: "Numeric data (specification)",
+        header: "Числові дані (специфікація)",
         image: "house.png",
         textItems: [
           {
-            title: "Title will be here",
-            text: "Hybrid balloon framing provides additional rigidity",
+            title: "Заголовок буде тут",
+            text: "Гібридний балонний каркас забезпечує додаткову жорсткість",
             num: 1,
           },
           {
-            title: "Title will be here",
-            text: "Hybrid balloon framing provides additional rigidity",
+            title: "Заголовок буде тут",
+            text: "Гібридний балонний каркас забезпечує додаткову жорсткість",
             num: 2,
           },
           {
-            title: "Title will be here",
-            text: "Hybrid balloon framing provides additional rigidity",
+            title: "Заголовок буде тут",
+            text: "Гібридний балонний каркас забезпечує додаткову жорсткість",
             num: 3,
           },
         ],
@@ -591,10 +591,10 @@ export const stateUa = {
     sliderData: [
       {
         slideNum: "01",
-        header: "project name will be here",
+        header: "назва проєкту буде тут",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquipea consequat. ",
         image: "house.png",
-        btnText: "Enquire now",
+        btnText: "Запитати зараз",
         textItems: {
           left: ["€1920 / м²", "€1920 / м²", "€1920 / м²"],
           right: ["€1920 / м²", "€1920 / м²", "€1920 / м²"],
@@ -602,10 +602,10 @@ export const stateUa = {
       },
       {
         slideNum: "02",
-        header: "project name will be here",
+        header: "назва проєкту буде тут",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquipea consequat. ",
         image: "house.png",
-        btnText: "Enquire now",
+        btnText: "Запитати зараз",
         textItems: {
           left: ["€1920 / м²", "€1920 / м²", "€1920 / м²"],
           right: ["€1920 / м²", "€1920 / м²", "€1920 / м²"],
@@ -613,10 +613,10 @@ export const stateUa = {
       },
       {
         slideNum: "03",
-        header: "project name will be here",
+        header: "назва проєкту буде тут",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquipea consequat. ",
         image: "house.png",
-        btnText: "Enquire now",
+        btnText: "Запитати зараз",
         textItems: {
           left: ["€1920 / м²", "€1920 / м²", "€1920 / м²"],
           right: ["€1920 / м²", "€1920 / м²", "€1920 / м²"],
@@ -633,7 +633,7 @@ export const stateUa = {
       arrows: true,
     },
     slidersCount: function () {
-      let a = stateUa.FourthComponentData.sliderData.length;
+      let a = stateEn.FourthComponentData.sliderData.length;
       if (a < 10) {
         a = "0" + a;
       }
@@ -643,35 +643,35 @@ export const stateUa = {
   FifthComponentData: {
     itemData: [
       {
-        title: "Name of the service",
+        title: "Назва послуги",
         num: "01",
         text: "Lorem ipsum dolor sit amet, consectur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
         isActive: true,
         image: "house.png",
       },
       {
-        title: "Name of the service",
+        title: "Назва послуги",
         num: "02",
         text: "Lorem ipsum dolor sit amet, consectur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
         isActive: false,
         image: "house2.png",
       },
       {
-        title: "Name of the service",
+        title: "Назва послуги",
         num: "03",
         text: "Lorem ipsum dolor sit amet, consectur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
         isActive: false,
         image: "house2.png",
       },
       {
-        title: "Name of the service",
+        title: "Назва послуги",
         num: "04",
         text: "Lorem ipsum dolor sit amet, consectur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
         isActive: false,
         image: "house.png",
       },
       {
-        title: "Name of the service",
+        title: "Назва послуги",
         num: "05",
         text: "Lorem ipsum dolor sit amet, consectur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
         isActive: false,
@@ -683,22 +683,22 @@ export const stateUa = {
   SixthComponentData: {
     itemsData: [
       {
-        name: "project name",
+        name: "Назва проєкту",
         image: "photo_1.png",
         onStart: true,
       },
       {
-        name: "project name",
+        name: "Назва проєкту",
         image: "photo_2.png",
         onStart: false,
       },
       {
-        name: "project name",
+        name: "Назва проєкту",
         image: "photo_3.png",
         onStart: false,
       },
       {
-        name: "project name",
+        name: "Назва проєкту",
         image: "photo_1.png",
         onStart: false,
       },
@@ -719,7 +719,7 @@ export const stateUa = {
       items: [
         {
           image: "pointer.svg",
-          text: "Adress will be here",
+          text: "Адреса буде тут",
         },
         {
           image: "tel.svg",
@@ -732,7 +732,7 @@ export const stateUa = {
       ],
     },
     left: {
-      header: "Get in Touch",
+      header: "Зв'язатися з нами",
       send: {
         service: "service_9b1ee76",
         template: "template_vwp3ebc",
@@ -740,7 +740,7 @@ export const stateUa = {
       },
       inputs: [
         {
-          text: "First Name",
+          text: "Ім'я",
           typeIs: "text",
           name: "firstname",
         },
@@ -750,13 +750,13 @@ export const stateUa = {
           name: "email",
         },
         {
-          text: "Phone number",
+          text: "Номер телефону",
           typeIs: "tel",
           name: "phone",
         },
       ],
       taxtarea: {
-        text: "Your Message",
+        text: "Ваше повідомлення",
         name: "message",
       },
     },
@@ -770,19 +770,19 @@ export const stateUa = {
         leftState: [
           {
             to: "11",
-            text: "About us",
+            text: "Про нас",
           },
           {
             to: "22",
-            text: "Services",
+            text: "Сервіси",
           },
           {
             to: "33",
-            text: "Projects",
+            text: "Проєкти",
           },
           {
             to: "44",
-            text: "Contact us",
+            text: "Контакти",
           },
         ],
         rightState: [
@@ -801,8 +801,8 @@ export const stateUa = {
         ],
       },
       stateBottom: {
-        alRight: "© 2021 All Rights Reserved",
-        ppolicy: "Privacy Policy",
+        alRight: "© 2021 Всі права захищені",
+        ppolicy: "Політика конфіденційності",
       },
     },
   },
