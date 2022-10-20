@@ -15,7 +15,7 @@ export function Lang({ lang, setLang, left, options }) {
         onChange={onChange}
         value={lang}
         options={options}
-        isSearchabl={false}
+        isSearchable={false}
       />
     </div>
   );
