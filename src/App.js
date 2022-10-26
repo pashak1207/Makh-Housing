@@ -20,16 +20,26 @@ function App({ stateEn, stateUa, options }) {
   const [lang, setLang] = useState(options[0]);
 
   const newPages = [
-    <Route path={"/about"} element={<NewPageComponent page={"about"} />} />,
     <Route
+      key={1}
+      path={"/about"}
+      element={<NewPageComponent page={"about"} />}
+    />,
+    <Route
+      key={2}
       path={"/services"}
       element={<NewPageComponent page={"services"} />}
     />,
     <Route
+      key={3}
       path={"/projects"}
       element={<NewPageComponent page={"projects"} />}
     />,
-    <Route path={"/contact"} element={<NewPageComponent page={"contact"} />} />,
+    <Route
+      key={4}
+      path={"/contact"}
+      element={<NewPageComponent page={"contact"} />}
+    />,
   ];
 
   const state =

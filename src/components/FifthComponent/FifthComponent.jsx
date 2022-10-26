@@ -1,16 +1,12 @@
 import "./FifthComponent.css";
 import { FifthComponentBottom } from "./FifthComponentBottom/FifthComponentBottom";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export function FifthComponent({ componentData }) {
   const [active, setActive] = useState(componentData.itemData);
 
   function isActiveNum() {
-    for (let i = 0; i < active.length; i++) {
-      if (active[i].isActive) {
-        return i;
-      }
-    }
+    return active.indexOf(active.find((e) => e.isActive === true));
   }
 
   setTimeout(() => {
